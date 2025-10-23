@@ -32,11 +32,11 @@ import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
 import csharpLogo from "./assets/tech_logo/csharp.png";
-
+import freelanceLogo from "./assets/company_logo/images.png";
 // Experience Section Logo's
 import webverseLogo from "./assets/company_logo/aaizeltech.jpeg";
 import agcLogo from "./assets/company_logo/areate.jpeg";
-import newtonschoolLogo from "./assets/company_logo/foundr_logo.jpeg";
+
 
 // Education Section Logo's
 // import glaLogo from './assets/education_logo/gla_logo.png';
@@ -113,8 +113,29 @@ export const SkillsInfo = [
 ];
 
 export const experiences = [
-  {
+
+{
     id: 0,
+    img: freelanceLogo, 
+    role: "Full Stack Developer (Freelancer)",
+    company: "Self-Employed / Remote",
+    date: "July 2025 - Present",
+    desc: "Worked with clients to design and develop full-stack web applications using the MERN stack. Delivered responsive e-commerce, healthcare, and marketplace platforms with secure authentication, optimized performance, and cloud deployment using AWS and Vercel.",
+    skills: [
+      "MERN Stack",
+      "AWS",
+      "Express JS",
+      "React JS",
+      "Node JS",
+      "MongoDB",
+      "Vercel",
+      "Redux Toolkit",
+      "REST API",
+    ],
+  },
+
+  {
+    id: 1,
     img: webverseLogo,
     role: "Associate Full Stack Developer",
     company: "Aaizel International Technologies Pvt Ltd",
@@ -138,7 +159,7 @@ export const experiences = [
     img: agcLogo,
     role: "Software Developer",
     company: "Arete Healthtech Pvt. Ltd",
-    date: "December 2023 - January 2024",
+    date: "September 2022 - January 2025",
     desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
     skills: [
       "ReactJS",
@@ -150,15 +171,7 @@ export const experiences = [
       "SQL",
     ],
   },
-  {
-    id: 2,
-    img: newtonschoolLogo,
-    role: "Jr. Software Engineer",
-    company: "Founder Studio Pvt. Ltd.",
-    date: "September 2022 - October 2023",
-    desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-    skills: ["HTML", "CSS", "Javascript", "Bootstrap", "Figma", "Material UI"],
-  },
+  
 ];
 
 export const education = [
